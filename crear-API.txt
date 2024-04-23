@@ -1,0 +1,25 @@
+
+
+-- Crear API (pararse dentro de la carpeta api-rest-node)
+
+npm init
+
+-- INSTALACION DE DEPENDENCIAS
+-- Express (maneja put, get, post)
+npm install express --save
+
+--MONGOOSE  (Nos permite ejecutar consultas con los datos, tipo sql)
+npm install mongoose --save
+
+-- LIBRERIA (para poder subir archivos)
+
+npm install multer --save
+
+-- VALIDATOR
+npm install validator --save
+
+-- CORS (permite hacer peticiones entre dominios distintos)
+npm install cors --save
+
+--nodemon (dependencia modo desarrollador)
+npm install nodemon --save-dev
